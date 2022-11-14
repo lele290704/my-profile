@@ -1,0 +1,99 @@
+body {
+background-color: #FFECEF;
+font-family: font-family: 'Lora', serif;
+font-weight: lighter;
+font-size: 18px;}
+
+
+h1,h2,h3 {
+font-family: 'Playfair Display', serif;
+}
+
+h1{
+color: slateblue;
+font-weight: 790;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #231955;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+    color: #6F38C5;
+}
+
+a:hover {
+    color: purple ;
+}
+
+div{
+background: font-family: 'Lora', serif;
+padding: 45px ;
+margin: 50px auto;
+width: 600px auto;
+border-radius: 5px ;
+box-shadow: 0PX 10px 30px rgba(0,0,0,0.1);
+}  
+
+/* Custom design with class  ( 90% of my design)*/
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    background-color: white ;
+    padding: 40px;
+    box-shadow: 0PX 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px ;
+margin: 20pix 0px;
+text-align: center;
+}
+
+.img-circle {
+    border-radius: 100px;
+    }
+
+.btn-blue{
+background-color: #6F38C5;
+color: white;
+padding:15px 20px;
+border-radius: 5px ;
+}
+
+.list-inline {
+list-style: none;
+padding-left:  0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+@media (max-width: 760px){
+.container{ 
+    width: 600px;
+}
+
+@media (max-width: 500px){
+.container {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
